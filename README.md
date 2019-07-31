@@ -1,1 +1,1 @@
-# create-domain-nginx
+# Create and configure a domain in Nginx.
