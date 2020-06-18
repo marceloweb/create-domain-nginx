@@ -22,14 +22,12 @@ server {
     index index.php;
 
     location / {
-         try_files \$uri/ \$uri /index.php?\$query_string;
+        try_files \$uri/ \$uri /index.php?\$query_string;
     }
 
     location ~ \.php$ {
-        include /etc/nginx/fastcgi_params;
-        fastcgi_pass  127.0.0.1:9000;
-        fastcgi_index index.php;
-        fastcgi_param SCRIPT_FILENAME \$document_root\$fastcgi_script_name;
+      	include snippets/fastcgi-php.conf;
+        fastcgi_pass unix:/var/run/php/php7.3-fpm.sock;
     }
 }
 " > $DOMAIN.txt
