@@ -19,6 +19,8 @@ server {
     listen 80;
     server_name $DOMAIN;
     root /srv/www/$DOMAIN/public_html/$FOLDER;
+    access_log /srv/www/$DOMAIN/logs/access.log;
+    error_log /srv/www/$DOMAIN/logs/error.log;
     index index.php;
 
     location / {
