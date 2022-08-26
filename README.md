@@ -2,6 +2,8 @@
 
 Use this script to configure a new domain in Linux with the Nginx server.
 
+This script will create the Nginx settings in the sites-available and sites-enabled folders for the specified domain.
+
 Execute the following command:
 
 ```terminal
