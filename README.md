@@ -8,3 +8,5 @@ Execute the following command:
 .\script domain folder
 ```
 
+### Maintenance
+
