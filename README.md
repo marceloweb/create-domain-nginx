@@ -9,6 +9,7 @@ This script will create the Nginx settings in the sites-available and sites-enab
 Execute the following command:
 
 ```terminal
+cd rhel 
 .\script domain folder
 ```
 
