@@ -6,7 +6,7 @@ This script will create the Nginx settings in the sites-available and sites-enab
 
 ### Steps
 
-Select one of architecture options: Debian or RedHat.
+Select one of architecture options: Debian(debian) or RedHat(rhel).
 
 Execute the following command:
 
