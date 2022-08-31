@@ -15,5 +15,5 @@ cd rhel
 
 ### Maintenance
 
-* Marcelo Oliveira <https://marceloweb.info>
+* https://marceloweb.info
 
