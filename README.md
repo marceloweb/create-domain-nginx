@@ -10,7 +10,7 @@ Execute the following command:
 
 ```terminal
 cd rhel 
-.\script domain folder
+.\create.sh domain folder
 ```
 
 ### Maintenance
